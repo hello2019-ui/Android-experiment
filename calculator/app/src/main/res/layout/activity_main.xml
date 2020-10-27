@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:columnCount="4"
+    android:rowCount="7"
+    android:layout_marginBottom="8dp"
+    tools:context=".MainActivity"
+    >
+<!-- 文本输入框 -->
+    <EditText
+        android:id="@+id/text"
+        android:layout_height="50sp"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="bottom|right"
+        android:inputType="numberDecimal"
+        android:text="0"
+        android:textSize="40sp"
+        android:background="@null"
+        android:focusable="false"/>
+
+<!-- 第一行 -->
+    <Button
+        android:id="@+id/btn_leftbra"
+        android:text="("
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_rightbra"
+        android:text=")"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_PandM"
+        android:text="+/-"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:text="C"
+        android:textSize="20sp" />
+
+<!-- 第二行 -->
+    <Button
+        android:id="@+id/btn_squ2"
+        android:text="√￣"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_sin"
+        android:text="sin"
+        android:textAllCaps="false"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_del"
+        android:text="del"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_div"
+        android:text="÷"
+        android:textSize="20sp" />
+
+<!-- 第三行 -->
+    <Button
+        android:id="@+id/btn_7"
+        android:background="@drawable/keys"
+        android:text="7"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_8"
+        android:text="8"
+        android:background="@drawable/keys"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_9"
+        android:text="9"
+        android:background="@drawable/keys"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_mul"
+        android:text="×"
+        android:textSize="20sp" />
+
+<!-- 第四行 -->
+    <Button
+        android:id="@+id/btn_4"
+        android:text="4"
+        android:background="@drawable/keys"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_5"
+        android:text="5"
+        android:background="@drawable/keys"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_6"
+        android:text="6"
+        android:background="@drawable/keys"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_sub"
+        android:text="-"
+        android:textSize="20sp" />
+
+<!-- 第五行 -->
+    <Button
+        android:id="@+id/btn_1"
+        android:text="1"
+        android:background="@drawable/keys"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:text="2"
+        android:background="@drawable/keys"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:text="3"
+        android:background="@drawable/keys"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:text="+"
+        android:textSize="20sp" />
+
+<!-- 第六行 -->
+    <Button
+        android:id="@+id/btn_percent"
+        android:text="%"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_0"
+        android:text="0"
+        android:background="@drawable/keys"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_p"
+        android:text="."
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_equ"
+        android:text="="
+        android:textSize="20sp" />
+
+</GridLayout>
